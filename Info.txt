@@ -1,0 +1,134 @@
+1) What is Class 
+Class is a blueprint or template from which objects are created.
+
+Class
+{
+	Methods or functions
+		+
+	Variables or properties
+}
+
+
+2) What is object 
+Object is an instance of a class.
+
+ClassName variableName = new ClassName();
+
+new keyword is used to allocate memory for the object
+ClassName() -> Constructor : Constructor is a block of codes similar to the method. It is called when an instance of the class is created.
+
+Object is used to access the variables and methods in the class.
+
+Default constructor
+Parameterized Constructor
+
+
+this keyword is used to refer current instance.
+
+
+1.Class contains variables and methods.
+2.Object is an instance of a class.
+3.Inorder to access the variables and methods 
+	i) First way- We need to create object. (ObjectName.variableName and ObjectName.methodName)
+	ii)Second way -  We can declare the methods or variables as static , so that we can access by using ClassName .(ClassName.variableName and ClassName.methodName) 
+	
+4.new keyword is used to allocate memory for the object
+5.Constructor is a block of codes similar to the method. It is called when an instance of the class is created.
+
+
+6. Class Level   - Static variables , Static Methods
+   Object Level  - Instance Variables , Instance Methods
+   
+7. How to declare a variable and method as Static
+
+public static void functionName()
+{
+
+}
+
+AccessModifer   ReturnType   FunctionName()   -> Method Signature
+
+
+AccessModifer : The access modifiers in Java specifies the accessibility or scope of a field, method, constructor, or class.
+
+public : Access across the packages or entire workspace
+
+Java OOPS
+
+Object : Instance of class
+
+****************************************************************************************************************************************
+
+Class : Contains methods and variables.
+
+****************************************************************************************************************************************
+
+Inheritance: The process of aquring the parent class methods and properties by child class.
+			"extends" keyword
+			
+			//No need to create object for the parent class
+			// We can access the parent class methods and variables by using child class object 
+
+1. Single
+2. Multi level Inheritance
+3. Hierarchy inheritance.
+
+Multiple Inheritance is not supported in java. Java does not support multiple inheritances due to ambiguity.
+
+
+****************************************************************************************************************************************
+
+Polymorphism : The word polymorphism means having many forms.
+
+Two types: 
+1.Compile-time Polymorphism  -> Method Overloading . In java method name should be unique , Duplicate method names not allowed . But we can overcome by using Method Overloading concept
+2.Runtime Polymorphism -> Method OverRiding or Dynamic binding.  -> We can able to override the parent class methods in Child Class by providing its own definition.
+
+Method Overloading
+1.Type of arguments
+2.No of arguments
+3. Arrangement of arguments
+
+
+Method OverRiding
+
+@Override - Annotation
+
+****************************************************************************************************************************************
+
+Abstraction : process of hiding the implementation details from the user and showing only the functionality to the user.
+
+It can be achieved in two ways.
+1.Interface
+2.Abstract Class
+
+
+Non-Abstract Methods -> The method having definition . It contain both signature and body 
+Abstract Methods -> The method doesnt have defintion . No body only signature will be available
+
+Difference btw Class and Interface.
+1. Class contains only non-abstract methods.
+2.Interface contains only abstract methods.
+
+Interface                                           Abstract Class
+
+1.Contains only Abstract Methods                   1. Contains both Non-Abstract and Abstract Methods.
+2.interface , implements -> 2 keywords             2. abstract class -> keyword
+3.Object cannot created for Interface
+4. The class which implements the interface
+   need to provide definition for all the methods
+   present in interface.
+   
+
+****************************************************************************************************************************************
+
+Encapsulation : The process of binding the methods and variables as a single entity or unit.
+
+
+
+
+Array : Collection of datas of similar datatype.
+		Arrays are fixed in length
+		
+		
+

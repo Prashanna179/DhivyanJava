@@ -1,0 +1,25 @@
+package Demo2;
+
+import Demo1.Add;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		
+		//Non Static Method Access
+		Add g = new Add();
+		System.out.println(g.add(3, 4));
+		
+		//Static Method Access
+		System.out.println(Add.sub(5, 2));
+		
+		
+		
+		
+	
+		
+		
+		
+	}
+
+}

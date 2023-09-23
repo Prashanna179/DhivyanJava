@@ -1,0 +1,43 @@
+package Demo2;
+
+import java.util.Scanner;
+
+import Demo1.Add;
+
+public class Sample2 {
+
+	public static void main(String args[])
+	{
+		Add a = new Add();
+		
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		int y = sc.nextInt();
+		
+		int c= a.add(x, y);
+		System.out.println(c);
+		//
+		//
+		//
+		//
+		//
+
+		System.out.println(a.add(8, 9));
+		//
+		//
+		//
+		//
+		//
+		System.out.println(a.add(9, 7));
+		
+		String s = "Madam";
+		StringBuffer sb = new StringBuffer(s);
+		sb = sb.reverse();
+		System.out.println(sb);
+		
+	System.out.println(s.hashCode());	
+	s="Prashanna";
+	System.out.println();
+	
+	}
+}

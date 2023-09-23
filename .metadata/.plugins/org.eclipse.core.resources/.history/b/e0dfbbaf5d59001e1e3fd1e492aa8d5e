@@ -1,0 +1,16 @@
+package Inheritance;
+
+public class Child {
+
+	int b = 10;
+	public void morning()
+	{
+		System.out.println("morning");
+	}
+	
+	public void night()
+	{
+		System.out.println("night");
+	}
+	
+}

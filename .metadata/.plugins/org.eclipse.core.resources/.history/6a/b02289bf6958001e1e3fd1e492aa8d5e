@@ -1,0 +1,26 @@
+package Demo2;
+
+import Demo1.Add;
+
+public class Sample2 {
+
+	public static void main(String args[])
+	{
+		Add a = new Add();
+		
+		System.out.println(a.add(4, 5));
+		//
+		//
+		//
+		//
+		//
+
+		System.out.println(a.add(8, 9));
+		//
+		//
+		//
+		//
+		//
+		System.out.println(a.add(9, 7));
+	}
+}

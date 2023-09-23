@@ -1,0 +1,33 @@
+package Demo1;
+
+public class Operations {
+	
+	//Non Static Method
+	public int add(int a, int b)  	//Method Signature 
+	 {  
+        int c=a+b;					//Method Definition
+		return c;
+	}
+	 
+	//Static Method
+	 public static int sub(int a, int b)
+	 {
+		 int c= a-b;
+		 return c;
+	 }
+	 
+	 
+	
+	public static void main(String args[])
+	{
+		Operations g = new Operations();
+		g.add(4, 5);
+		
+		Operations.sub(5, 3);
+		
+		
+		
+	}
+	
+}
+

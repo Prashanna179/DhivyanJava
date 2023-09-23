@@ -1,0 +1,36 @@
+package Inheritance;
+
+public class Overloading {
+
+	public void display()
+	{
+		System.out.println("display");
+	}
+	
+	public void display(String s) //Type of arguments
+	{
+		System.out.println("display");
+	}
+	
+	public void display(String s,String s1) //No of arguments
+	{
+		System.out.println("display");
+	}
+	
+	public void display(String s,int a) //No of arguments
+	{
+		System.out.println("display");
+	}
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

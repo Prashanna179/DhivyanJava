@@ -1,0 +1,19 @@
+package Abstraction;
+
+public class Base implements InterfaceDemo{
+
+	
+	public void add() {
+		
+		System.out.println("add");
+	}
+
+
+	public void sub() {
+		
+		
+	}
+
+	
+	
+}

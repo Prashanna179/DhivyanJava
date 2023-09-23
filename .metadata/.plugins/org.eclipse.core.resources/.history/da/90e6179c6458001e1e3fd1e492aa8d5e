@@ -1,0 +1,23 @@
+package Demo1;
+
+public class Add {
+	
+	 public static int add(int a, int b)  	//Method Signature 
+
+	 {  
+        int c=a+b;					//Method Definition
+		return c;
+	}
+	 
+	 
+	 
+	
+	public static void main(String args[])
+	{
+		
+		Add.add(2,3);
+		
+	}
+	
+}
+

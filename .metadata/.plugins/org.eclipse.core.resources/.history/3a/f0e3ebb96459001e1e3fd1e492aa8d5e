@@ -1,0 +1,25 @@
+package Inheritance;
+
+public class Overloading {
+
+	public void display()
+	{
+		System.out.println("display");
+	}
+	
+	public void display(String s)
+	{
+		System.out.println("display");
+	}
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

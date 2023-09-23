@@ -1,0 +1,16 @@
+
+public class Add {
+
+	public int add(int a, int b) {
+		int c=a+b;
+		return c;
+	}
+	
+	public static void main(String args[])
+	{
+		Add d = new Add();
+		d.add(9,6);
+	}
+	
+}
+

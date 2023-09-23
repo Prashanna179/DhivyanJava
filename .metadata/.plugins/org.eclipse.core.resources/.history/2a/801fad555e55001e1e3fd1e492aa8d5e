@@ -1,0 +1,16 @@
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+	
+		String s = "Dhivyan";
+		
+		//String is an array of characters
+		
+		System.out.println();s.length();
+		
+			
+
+	}
+
+}

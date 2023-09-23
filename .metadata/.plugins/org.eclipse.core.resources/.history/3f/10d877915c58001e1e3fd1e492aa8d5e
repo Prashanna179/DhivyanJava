@@ -1,0 +1,13 @@
+
+public class Add {
+	
+	 public int add(int a, int b)  	//Method Signature 
+
+	 {  
+        int c=a+b;					//Method Definition
+		return c;
+	}
+	
+	
+}
+

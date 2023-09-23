@@ -1,0 +1,15 @@
+package Demo2;
+
+import Demo1.Add;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		
+
+		Add a = new Add();
+		
+		
+	}
+
+}

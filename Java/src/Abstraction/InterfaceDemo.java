@@ -1,0 +1,11 @@
+package Abstraction;
+
+public interface InterfaceDemo {
+
+	public void add();
+	
+	public void sub();
+	
+    
+	
+}

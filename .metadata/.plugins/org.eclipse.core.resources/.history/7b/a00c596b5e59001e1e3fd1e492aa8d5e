@@ -1,0 +1,34 @@
+package Inheritance;
+
+public class Child {
+
+	int b = 10;
+	
+	String ss  ="Dhivyan";
+	
+	public void morning()
+	{
+		System.out.println("morning");
+	}
+	
+	public void night()
+	{
+		System.out.println("night");
+	}
+	
+	
+	public static void main(String args[])
+	{
+		Child c = new Child();
+		c.morning();
+		c.night();
+		System.out.println(c.b);
+		System.out.println(c.ss);
+		
+		Father f = new Father();
+		f.hello();
+		f.welcome();
+		System.out.println(f.age);
+		System.out.println(f.s);
+	}
+}

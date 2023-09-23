@@ -1,0 +1,47 @@
+package Demo1;
+public class Basic {
+
+	int a;
+	
+	public void hello()
+	{
+		System.out.println("Hello");
+	}
+	
+	public void hi()
+	{
+		System.out.println("hi");
+	}
+	
+	static int b;
+	public static void welcome()
+	{
+		System.out.println("Welcome");
+	}
+	
+	public Basic(int a)
+	{
+	   this.a = a;
+	}
+	
+	public static void main(String[] args) {
+		
+		Basic b = new Basic(5);
+		Basic c = new Basic(7);
+		
+		System.out.println(b.a);
+		b.hello();
+		b.hi();
+		
+		System.out.println(c.a);
+		c.hello();
+		c.hi();
+		
+		Basic.welcome();
+	
+		
+		
+	}
+	
+	
+}

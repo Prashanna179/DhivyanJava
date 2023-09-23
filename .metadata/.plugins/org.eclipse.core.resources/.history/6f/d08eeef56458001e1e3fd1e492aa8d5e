@@ -1,0 +1,27 @@
+package Demo1;
+
+public class Add {
+	
+	 public  int add(int a, int b)  	//Method Signature 
+	 {  
+        int c=a+b;					//Method Definition
+		return c;
+	}
+	 
+	 public int sub(int a, int b)
+	 {
+		 int c= a-b;
+	 }
+	 
+	 
+	
+	public static void main(String args[])
+	{
+		
+		Add a = new Add();
+		a.add(2,3);
+		
+	}
+	
+}
+

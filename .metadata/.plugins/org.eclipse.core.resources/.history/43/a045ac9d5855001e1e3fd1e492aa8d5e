@@ -1,0 +1,32 @@
+public class Basic {
+
+	
+	int a =5;
+	
+	public void hello()
+	{
+		System.out.println("Hello");
+	}
+	
+	public void hi()
+	{
+		System.out.println("hi");
+	}
+	
+	public static void main(String[] args) {
+		
+		Basic b = new Basic();
+		Basic c = new Basic();
+		
+		System.out.println(b.a);
+		b.hello();
+		b.hi();
+	
+		System.out.println(c.a);
+		c.hello();
+		c.hi();
+		
+		
+	}
+
+}

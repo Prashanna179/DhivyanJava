@@ -1,0 +1,35 @@
+public class Basic {
+
+	
+	int a =5;
+	
+	public void hello()
+	{
+		System.out.println("Hello");
+	}
+	
+	public void hi()
+	{
+		System.out.println("hi");
+	}
+	
+	public static void main(String[] args) {
+		
+		Basic b = new Basic();
+		Basic c = new Basic();
+		
+		int d = b.a;
+		System.out.println(d);
+		b.hello();
+		b.hi();
+		
+		
+		int e = c.a;
+		System.out.println(e);
+		c.hello();
+		c.hi();
+		
+		
+	}
+
+}

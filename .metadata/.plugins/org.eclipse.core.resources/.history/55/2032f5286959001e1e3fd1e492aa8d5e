@@ -1,0 +1,7 @@
+package Abstraction;
+
+public class InterfaceDemo {
+
+	public void add();
+	
+}

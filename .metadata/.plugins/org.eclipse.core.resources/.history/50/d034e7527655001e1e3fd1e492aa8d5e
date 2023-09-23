@@ -1,0 +1,74 @@
+public class Basic {
+
+	/*
+	 1) What is Class 
+Class is a blueprint or template from which objects are created.
+
+Class
+{
+	Methods or functions
+		+
+	Variables or properties
+}
+
+
+2) What is object 
+Object is an instance of a class.
+
+ClassName variableName = new ClassName();
+
+new keyword is used to allocate memory for the object
+ClassName() -> Constructor : Constructor is a block of codes similar to the method. It is called when an instance of the class is created.
+
+Object is used to access the variables and methods in the class.
+
+Default constructor
+Parameterized Constructor
+
+
+this keyword is used to refer current instance
+	 */
+	int a;
+	
+	public void hello()
+	{
+		System.out.println("Hello");
+	}
+	
+	public void hi()
+	{
+		System.out.println("hi");
+	}
+	
+	public Basic(int a)
+	{
+	   this.a = a;
+	}
+	
+	public static void main(String[] args) {
+		
+		Basic b = new Basic(5);
+		Basic c = new Basic(7);
+		
+		System.out.println(b.a);
+		b.hello();
+		b.hi();
+	
+		System.out.println(c.a);
+		c.hello();
+		c.hi();
+		
+		
+		/*if(!(3>4 && 7>5))
+		{
+			
+		}
+		else
+		{
+			
+		}*/
+		
+	}
+	
+	
+}

@@ -1,0 +1,9 @@
+package Inheritance;
+
+public class Child {
+
+	public void morning()
+	{
+		System.out.println("morning");
+	}
+}

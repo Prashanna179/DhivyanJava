@@ -1,0 +1,24 @@
+package Demo2;
+
+import Demo1.Add;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		
+		//Non Static Method Access
+		Add g = new Add();
+		g.add(3, 4);
+		
+		//Non Static Method Access
+		Add.sub(5, 2);
+		
+		
+		
+	
+		
+		
+		
+	}
+
+}
